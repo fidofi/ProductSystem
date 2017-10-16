@@ -24,6 +24,7 @@ public interface ProductRepository {
      * @param productBarCode
      */
     public void delete(String productBarCode);
+
     public void deleteByList(List<String> productBarCode);
 
     /**
@@ -43,11 +44,28 @@ public interface ProductRepository {
      */
     public Product read(String productBarCode, String productName);
 
-    public List<Product> readByProductName(String productName,Page page);
+    public List<Product> readByProductName(String productName, Page page);
 
     public Product readByCategoryCode(String productBarCode);
 
     public List<Product> readAll(Page page);
+
     public Integer count();
+
+    /**
+     * 增加库存
+     *
+     * @param productBarCode
+     */
+    public void increaseStock(String productBarCode);
+
+    /**
+     * 减少库存
+     *
+     * @param productBarCode
+     */
+    public void decreaseStock(String productBarCode);
+
+
 
 }

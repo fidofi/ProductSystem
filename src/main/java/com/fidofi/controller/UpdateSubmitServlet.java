@@ -68,14 +68,12 @@ public class UpdateSubmitServlet extends HttpServlet {
             fileOutputStream.close();
             String productBarCode = (String) request.getSession().getAttribute("productBarCode");
             ProductVO productVO = productService.selectByProductBarCode(productBarCode).get(0);
-            System.out.println(productPhoto);
             if (productPhoto != null) {
                 //删掉旧的图片
                 File file = new File(productVO.getProductPhoto() );
                 if (file.exists()){
-                    System.out.println(file.delete());
+                    file.delete();
                 }
-
                 //设置新的图片
                 productVO.setProductPhoto(productPhoto);
             }
@@ -84,6 +82,8 @@ public class UpdateSubmitServlet extends HttpServlet {
             productVO.setProductPrice(Float.parseFloat((String) values.get("productPrice")));
             productVO.setCategoryCode((String)values.get("categoryCode"));
             productVO.setProductBarCode(productBarCode);
+            productVO.setProductStock(Integer.parseInt((String)values.get("productStock")));
+            productVO.setOriginStock(Integer.parseInt((String)values.get("originStock")));
             productService.update(productVO);
         } catch (FileUploadException e) {
             e.printStackTrace();

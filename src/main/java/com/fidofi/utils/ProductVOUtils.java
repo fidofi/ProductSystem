@@ -23,6 +23,8 @@ public class ProductVOUtils {
         productVO.setProductDescription(product.getProductDescription());
         productVO.setProductBarCode(product.getProductBarCode());
         productVO.setProductPhoto(product.getProductPhoto());
+        productVO.setProductStock(product.getProductStock());
+        productVO.setOriginStock(product.getOriginStock());
         return productVO;
     }
 
@@ -44,6 +46,8 @@ public class ProductVOUtils {
         product.setProductPhoto(productVO.getProductPhoto());
         product.setProductPrice(productVO.getProductPrice());
         product.setProductDescription(productVO.getProductDescription());
+        product.setProductStock(productVO.getProductStock());
+        product.setOriginStock(productVO.getOriginStock());
         return product;
     }
 }

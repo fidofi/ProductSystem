@@ -21,7 +21,7 @@
 <div class="container">
     <div class="row clearfix">
         <div class="col-md-12 column">
-            <form role="form" method="post" enctype="multipart/form-data" action="/update/submit">
+            <form role="form" method="post" enctype="multipart/form-data" action="/product/update/submit" style="text-align: left">
                 <div class="form-group">
                     <label>商品名称：</label><input type="text"  class="form-control" name="productName" style="width:160px;display: inline-block" value="${product.productName}"/>
                     <label>商品单价：</label><input type="text" class="form-control" name="productPrice"style="width:80px;display: inline-block" value="${product.productPrice}"/>
@@ -41,6 +41,10 @@
                                </c:choose>
                            </c:forEach>
                        </select>
+                   <label>商品上架数量：</label>
+                   <input type="text" class="form-control" name="originStock" style="width:80px;display: inline-block"  value="${product.originStock}" >
+                   <label>商品库存：</label>
+                   <input type="text" class="form-control" name="productStock" style="width:80px;display: inline-block"  value="${product.productStock}" >
                </div>
                 <div class="form-group" >
                     <label>商品描述：</label>
@@ -48,7 +52,7 @@
                 </div>
                 <div class="form-group" >
                     <label>商品图片：</label>
-                    <img alt="商品图片" src="../${fn:substringAfter(product.productPhoto,'/webapp/')}" width="200px" height="200px;"/>
+                    <img alt="商品图片" src="../${fn:substringAfter(product.productPhoto,'/webapp/')}" class="img-thumbnail" width="250px"/>
                 </div>
                 <div class="form-group">
                 <label>上传图片：</label><input type="file" name="productPhoto" style="display: inline-block">

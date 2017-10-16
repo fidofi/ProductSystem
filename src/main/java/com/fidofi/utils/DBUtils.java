@@ -20,7 +20,7 @@ public class DBUtils {
     private static ComboPooledDataSource datasource = null;
 
     static {
-        datasource = new ComboPooledDataSource("mysql_fido");
+        datasource = new ComboPooledDataSource();
         //会自动去读取c3p0.properties配置文件
     }
 

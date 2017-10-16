@@ -4,7 +4,10 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
-
+  <!--默认首页为登录界面-->
+<welcome-file-list>
+  <welcome-file>/WEB-INF/login.jsp</welcome-file>
+</welcome-file-list>
 
   <servlet>
     <servlet-name>ProductServlet</servlet-name>
@@ -42,9 +45,41 @@
         <servlet-name>UpdateSubmitServlet</servlet-name>
         <servlet-class>com.fidofi.controller.UpdateSubmitServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>DetailServlet</servlet-name>
+        <servlet-class>com.fidofi.controller.DetailServlet</servlet-class>
+    </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.fidofi.controller.LoginServlet</servlet-class>
+  </servlet>
+    <servlet>
+        <servlet-name>OutServlet</servlet-name>
+        <servlet-class>com.fidofi.controller.OutServlet</servlet-class>
+    </servlet>
+  <servlet>
+    <servlet-name>ShowChartServlet</servlet-name>
+    <servlet-class>com.fidofi.controller.ShowChartServlet</servlet-class>
+  </servlet>
   <servlet-mapping>
+    <servlet-name>ShowChartServlet</servlet-name>
+    <url-pattern>/product/show</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OutServlet</servlet-name>
+    <url-pattern>/product/out</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DetailServlet</servlet-name>
+    <url-pattern>/product/detail</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
     <servlet-name>UpdateSubmitServlet</servlet-name>
-    <url-pattern>/update/submit</url-pattern>
+    <url-pattern>/product/update/submit</url-pattern>
   </servlet-mapping>
     <servlet-mapping>
     <servlet-name>SaveServlet</servlet-name>
@@ -54,5 +89,23 @@
     <servlet-name>CreateServlet</servlet-name>
     <url-pattern>/product/create</url-pattern>
   </servlet-mapping>
+  <!--发生错误信息时页面跳转-->
+  <error-page>
+    <error-code>404</error-code>
+    <location>/WEB-INF/404.jsp</location>
+  </error-page>
+  <!--<error-page>-->
+    <!--<error-code>500</error-code>-->
+    <!--<location>/WEB-INF/500.jsp</location>-->
+  <!--</error-page>-->
+  <!--拦截器的配置-->
+  <filter>
+    <filter-name>LoginFilter</filter-name>
+    <filter-class>com.fidofi.filter.LoginFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>LoginFilter</filter-name>
+    <url-pattern>/product/*</url-pattern>
+  </filter-mapping>
 </web-app>
 

@@ -21,14 +21,14 @@ import java.util.List;
  * 商品的dao操作
  */
 public class ProductRepositoryImpl implements ProductRepository {
-    private static final String field = "productId,productName,productDescription,productPrice,productPhoto,productBarCode,categoryCode";
+    private static final String field = "productId,productName,productDescription,productPrice,productPhoto,productBarCode,categoryCode,originStock,productStock";
 
     public void create(Product product) {
-        String sql = "insert into product(" + field + ")" + "values(?,?,?,?,?,?,?)";
+        String sql = "insert into product(" + field + ")" + "values(?,?,?,?,?,?,?,?,?)";
         String productId = KeyUtils.getKey();
         String productBarCode = BarCodeUtils.getBarCode(productId, product.getCategoryCode());
         Object[] args = {productId, product.getProductName(), product.getProductDescription(), product.getProductPrice()
-                , product.getProductPhoto(), productBarCode, product.getCategoryCode()
+                , product.getProductPhoto(), productBarCode, product.getCategoryCode(),product.getOriginStock(),product.getOriginStock()
         };
         DBUtils.update(sql, args);
 
@@ -42,9 +42,9 @@ public class ProductRepositoryImpl implements ProductRepository {
 
     public void update(Product product) {
         String sql = "update product set productName=? ,productDescription=?,productPrice=?," +
-                "productPhoto=?,categoryCode=? where productBarCode=?";
+                "productPhoto=?,categoryCode=?,productStock=?,originStock=? where productBarCode=?";
         Object[] args = {product.getProductName(), product.getProductDescription(),
-                product.getProductPrice(), product.getProductPhoto(), product.getCategoryCode(), product.getProductBarCode()
+                product.getProductPrice(), product.getProductPhoto(), product.getCategoryCode(),product.getProductStock(), product.getOriginStock(),product.getProductBarCode()
         };
         DBUtils.update(sql, args);
     }
@@ -140,6 +140,23 @@ public class ProductRepositoryImpl implements ProductRepository {
             DBUtils.release(conn, ps, rs);
         }
         return count;
+
+    }
+
+    /**
+     * 增加库存
+     * @param productBarCode
+     */
+    public void increaseStock(String productBarCode) {
+
+
+    }
+
+    /**
+     * 减少库存
+     * @param productBarCode
+     */
+    public void decreaseStock(String productBarCode) {
 
     }
 }

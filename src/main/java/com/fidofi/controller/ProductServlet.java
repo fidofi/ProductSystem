@@ -44,15 +44,21 @@ public class ProductServlet extends HttpServlet {
         } else if (barCodeAccess) {
              productVOList=productService.selectByProductName(new String(productName.getBytes("ISO-8859-1"), "UTF-8"), page);
             //参数传过来会乱码,要做字符编码转换
-            count=productVOList.size();
+            if(productVOList!=null){
+                count=productVOList.size();
+            }
             request.setAttribute("productList",productVOList);
         } else if (nameAccess) {
             productVOList=productService.selectByProductBarCode(productBarCode);
-            count=productVOList.size();
+            if(productVOList!=null){
+                count=productVOList.size();
+            }
             request.setAttribute("productList",productVOList);
         } else {
             productVOList=productService.select(productBarCode, productName);
-            count=productVOList.size();
+            if(productVOList!=null){
+                count=productVOList.size();
+            }
             request.setAttribute("productList",productVOList);
         }
         Integer i = count % PageConstant.size;//余数
@@ -60,9 +66,6 @@ public class ProductServlet extends HttpServlet {
         page.setTotal(i > 0 ? (j + 1) : j);//处理总页数
         //将分页信息传过去
         request.setAttribute("page", page);
-        request.setAttribute("productBarCode",productBarCode);
-        request.setAttribute("productName",productName);
-
-        request.getRequestDispatcher("WEB-INF/index.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/index.jsp").forward(request, response);
     }
 }

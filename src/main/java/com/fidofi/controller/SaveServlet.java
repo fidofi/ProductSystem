@@ -68,10 +68,14 @@ public class SaveServlet extends HttpServlet {
             }
             Product product=new Product();
             product.setProductPhoto(productPhoto);
+            System.out.println(productPhoto);
             product.setProductName((String)values.get("productName"));
             product.setProductDescription((String)values.get("productDescription"));
             product.setProductPrice(Float.parseFloat((String)values.get("productPrice")));
             product.setCategoryCode(CategoryCodeUtils.getCode((String)values.get("categoryCode")));
+            //初始库存就是商品上架数量
+            product.setProductStock(Integer.parseInt((String)values.get("originStock")));
+            product.setOriginStock(Integer.parseInt((String)values.get("originStock")));
             productService.create(product);
         } catch (FileUploadException e) {
             e.printStackTrace();

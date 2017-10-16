@@ -35,7 +35,6 @@ public class BeanListHandler implements ResultHandler {
                 for(int i=0;i<columnNum;i++){
                     String columnName=rmt.getColumnName(i+1);
                     Object columnData=rs.getObject(i+1);
-
                     Field field=bean.getClass().getDeclaredField(columnName);
                     field.setAccessible(true);
                     field.set(bean, columnData);
@@ -45,6 +44,7 @@ public class BeanListHandler implements ResultHandler {
             return list;
         }
         catch (Exception e) {
+            e.printStackTrace();
             throw new GetListException(ResultEnums.LIST_NOT_EXIST);
         }
     }
