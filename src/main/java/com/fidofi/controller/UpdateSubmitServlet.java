@@ -30,10 +30,11 @@ import java.util.Map;
  */
 public class UpdateSubmitServlet extends HttpServlet {
     private ProductService productService = new ProductServiceImpl();
+
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //对应表单传过来的名称和值
         HashMap<String, Object> values = new HashMap<String, Object>();
-        request.setCharacterEncoding("UTF-8");
+        // request.setCharacterEncoding("UTF-8");
         // 检查是否是表单文件上传请求
         String productPhoto = null;
         FileOutputStream fileOutputStream = null;
@@ -50,11 +51,11 @@ public class UpdateSubmitServlet extends HttpServlet {
                 String name = item.getFieldName(); //得到元素名
                 stream = item.openStream();
                 if (item.isFormField()) { //如果是普通元素
-                    String value =Streams.asString(stream);
+                    String value = Streams.asString(stream);
                     values.put(name, value);
                 } else {//如果是文件型的元素
                     String photoName = PhotoNameUtils.getPhotoName();
-                    productPhoto =DBConstant.location + photoName+".jpg";
+                    productPhoto = DBConstant.location + photoName + ".jpg";
                     fileOutputStream = new FileOutputStream(productPhoto);
                     byte[] buffer = new byte[1024];
                     int len = 0;
@@ -70,8 +71,8 @@ public class UpdateSubmitServlet extends HttpServlet {
             ProductVO productVO = productService.selectByProductBarCode(productBarCode).get(0);
             if (productPhoto != null) {
                 //删掉旧的图片
-                File file = new File(productVO.getProductPhoto() );
-                if (file.exists()){
+                File file = new File(productVO.getProductPhoto());
+                if (file.exists()) {
                     file.delete();
                 }
                 //设置新的图片
@@ -80,10 +81,22 @@ public class UpdateSubmitServlet extends HttpServlet {
             productVO.setProductName((String) values.get("productName"));
             productVO.setProductDescription((String) values.get("productDescription"));
             productVO.setProductPrice(Float.parseFloat((String) values.get("productPrice")));
-            productVO.setCategoryCode((String)values.get("categoryCode"));
+            productVO.setCategoryCode((String) values.get("categoryCode"));
             productVO.setProductBarCode(productBarCode);
-            productVO.setProductStock(Integer.parseInt((String)values.get("productStock")));
-            productVO.setOriginStock(Integer.parseInt((String)values.get("originStock")));
+            if(values.get("isNew")==null){
+                productVO.setIsNew(false);
+            }
+            else {
+                productVO.setIsNew(true);
+            }
+            if(values.get("discount")==null){
+                productVO.setDiscount(false);
+            }
+            else{
+                 productVO.setDiscount(true);
+            }
+            productVO.setProductStock(Integer.parseInt((String) values.get("productStock")));
+            productVO.setOriginStock(Integer.parseInt((String) values.get("originStock")));
             productService.update(productVO);
         } catch (FileUploadException e) {
             e.printStackTrace();

@@ -15,14 +15,14 @@
 <script type="text/javascript">
     // 基于准备好的dom，初始化echarts实例
     var myChart = echarts.init(document.getElementById('main'));
-    var categoryName=new Array();
-    var categorySell=new Array();
+    var categoryName = new Array();
+    var categorySell = new Array();
     <%
        List<CategoryAndCountVO> categoryAndCountVOList=(List<CategoryAndCountVO>)request.getAttribute("categoryList");
        for(int i=0;i<categoryAndCountVOList.size();i++){
                %>
-    categoryName[<%=i%>]='<%=categoryAndCountVOList.get(i).getCategoryCode()%>'
-    categorySell[<%=i%>]='<%=categoryAndCountVOList.get(i).getSell()%>'
+    categoryName[<%=i%>] = '<%=categoryAndCountVOList.get(i).getCategoryCode()%>'
+    categorySell[<%=i%>] = '<%=categoryAndCountVOList.get(i).getSell()%>'
     <%
        }
        %>
@@ -33,7 +33,7 @@
         },
         tooltip: {},
         legend: {
-            data:['销量']
+            data: ['销量']
         },
         xAxis: {
             data: categoryName

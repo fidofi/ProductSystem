@@ -23,5 +23,4 @@ public class Page {
     public void setTotal(Integer total) {
         this.total = total;
     }
-
 }

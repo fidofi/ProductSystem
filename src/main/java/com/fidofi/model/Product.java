@@ -14,6 +14,8 @@ public class Product {
     private Integer categoryCode;//商品类目编号
     private Integer productStock;//商品库存
     private Integer originStock;//商品初始数量
+    private Boolean isNew;//是否为新品
+    private Boolean discount;//是否为特价商品
 
     public String getProductId() {
         return productId;
@@ -87,6 +89,22 @@ public class Product {
         this.originStock = originStock;
     }
 
+    public Boolean getNew() {
+        return isNew;
+    }
+
+    public void setNew(Boolean aNew) {
+        isNew = aNew;
+    }
+
+    public Boolean getDiscount() {
+        return discount;
+    }
+
+    public void setDiscount(Boolean discount) {
+        this.discount = discount;
+    }
+
     @Override
     public String toString() {
         return "Product{" +
@@ -99,6 +117,8 @@ public class Product {
                 ", categoryCode=" + categoryCode +
                 ", productStock=" + productStock +
                 ", originStock=" + originStock +
+                ", isNew=" + isNew +
+                ", discount=" + discount +
                 '}';
     }
 }

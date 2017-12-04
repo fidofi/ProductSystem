@@ -43,6 +43,12 @@
                 </div>
                 <hr align=center width=300 color=#777 size=1>
                 <div class="form-group" >
+                    <label>商品属性：</label>
+                    <c:if test="${productVO.isNew}"> <b  class="text-info">新品</b></c:if>
+                    <c:if test="${productVO.discount}"> <b  class="text-info">特价品</b></c:if>
+                </div>
+                <hr align=center width=300 color=#777 size=1>
+                <div class="form-group" >
                     <label>商品图片：</label>
                     <img alt="商品图片" src="../${fn:substringAfter(productVO.productPhoto,'/webapp/')}" class="img-thumbnail" width="250px"/>
                 </div>

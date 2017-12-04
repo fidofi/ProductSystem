@@ -34,10 +34,9 @@ public class SaveServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //对应表单传过来的名称和值
         HashMap<String, Object> values = new HashMap<String, Object>();
-        request.setCharacterEncoding("UTF-8");
+        //   request.setCharacterEncoding("UTF-8");
         // 检查是否是表单文件上传请求
-        String productPhoto=null;
-
+        String productPhoto = null;
         try {
 //            String location=DBConstant.location.substring(0,DBConstant.location.indexOf("WEB-INF"))+"imag/";
             boolean isMultipart = ServletFileUpload.isMultipartContent(request);
@@ -49,12 +48,11 @@ public class SaveServlet extends HttpServlet {
                 String name = item.getFieldName(); //得到元素名
                 InputStream stream = item.openStream();
                 if (item.isFormField()) { //如果是普通元素
-                    String value= Streams.asString(stream);
+                    String value = Streams.asString(stream);
                     values.put(name, value);
-                }
-                else {//如果是文件型的元素
+                } else {//如果是文件型的元素
                     String photoName = PhotoNameUtils.getPhotoName();
-                    productPhoto =DBConstant.location + photoName+".jpg";
+                    productPhoto = DBConstant.location + photoName + ".jpg";
                     FileOutputStream fileOutputStream = new FileOutputStream(productPhoto);
                     byte[] buffer = new byte[1024];
                     int len = 0;
@@ -66,16 +64,26 @@ public class SaveServlet extends HttpServlet {
                     fileOutputStream.close();
                 }
             }
-            Product product=new Product();
+            Product product = new Product();
             product.setProductPhoto(productPhoto);
-            System.out.println(productPhoto);
-            product.setProductName((String)values.get("productName"));
-            product.setProductDescription((String)values.get("productDescription"));
-            product.setProductPrice(Float.parseFloat((String)values.get("productPrice")));
-            product.setCategoryCode(CategoryCodeUtils.getCode((String)values.get("categoryCode")));
+            product.setProductName((String) values.get("productName"));
+            product.setProductDescription((String) values.get("productDescription"));
+            product.setProductPrice(Float.parseFloat((String) values.get("productPrice")));
+            product.setCategoryCode(CategoryCodeUtils.getCode((String) values.get("categoryCode")));
+            if (values.get("isNew") == null) {
+                product.setNew(false);
+            } else {
+                product.setNew(true);
+            }
+
+            if (values.get("discount") == null) {
+                product.setDiscount(false);
+            } else {
+                product.setDiscount(true);
+            }
             //初始库存就是商品上架数量
-            product.setProductStock(Integer.parseInt((String)values.get("originStock")));
-            product.setOriginStock(Integer.parseInt((String)values.get("originStock")));
+            product.setProductStock(Integer.parseInt((String) values.get("originStock")));
+            product.setOriginStock(Integer.parseInt((String) values.get("originStock")));
             productService.create(product);
         } catch (FileUploadException e) {
             e.printStackTrace();

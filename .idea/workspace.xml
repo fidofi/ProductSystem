@@ -2,103 +2,210 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22c8090e-bae7-4433-99a9-6174bb3948b1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/constant/UserConstant.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/controller/DetailServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/controller/LoginServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/controller/OutServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/controller/ShowChartServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/filter/LoginFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/model/CategoryAndCount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/repository/CategoryRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/repository/LoginRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/repository/impl/CategoryRepositoryImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/repository/impl/LoginRepositoryImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/service/CategoryAndCountService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/service/LoginService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/service/impl/CategoryAndCountServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/service/impl/LoginServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/vo/CategoryAndCountVO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/404.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/500.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/detail.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/show.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapValidator.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapValidator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/echarts.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/fidofi/service/impl/CategoryAndCountServiceImplTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/test.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171007135496.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171007144861.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171007234795.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171007313630.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171007324829.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171007496174.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171007581335.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171007614332.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171007676383.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171007747629.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/test.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171007135496.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171007144861.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171007234795.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171007313630.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171007324829.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171007496174.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171007581335.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171007614332.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171007676383.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171007747629.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/test.jpg" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/constant/ResponseCode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/controller/FreezeServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/controller/ManagerUserServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/controller/OrderServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/BuyServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/CleanCardServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/DoRegisterServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/DoUpdateServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/ForwardLoginServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/IndexServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/SelectByNameServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/UserLoginServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/UserOrderServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/UserOutServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/UserRegisterServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/UserUpdateServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/dto/Card.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/filter/BuyFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/filter/CharsetFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/model/Manager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/repository/UserRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/repository/impl/ManagerRepositoryImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/repository/impl/UserRepositoryImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/service/ManagerService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/service/UserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/service/impl/ManagerServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/service/impl/UserServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/vo/ResultVO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/front/user_card.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/front/user_index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/front/user_login.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/front/user_register.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/front/user_update.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/managerUser.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/log-2017-10-14.0.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/log-2017-10-15.0.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/fidofi/constant/UserConstant.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/fidofi/repository/impl/LoginRepositoryImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/fidofi/service/LoginService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/fidofi/service/impl/LoginServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171009236699.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171009476645.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171009501512.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171009536844.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171009725585.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171009771806.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171009877403.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171014192568.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171014422995.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171014510930.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171014610530.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171014752119.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171014802792.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171014933620.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171016114306.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171016157513.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171016192750.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171016269958.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171016284691.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171016354551.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171016415730.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171016427720.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171016430394.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171016566714.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171016573039.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171016574220.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171016670125.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171016708241.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171016806394.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171016821599.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171016835949.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171016839793.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171016857288.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171016864578.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171016880755.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171016890283.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171016943331.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171016955479.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/imag/20171016980897.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/constant/UserConstant.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/repository/LoginRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/repository/impl/LoginRepositoryImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/service/LoginService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/service/impl/LoginServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171009236699.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171009476645.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171009501512.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171009536844.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171009708803.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171009725585.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171009771806.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171009877403.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171013152775.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171013390544.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171014192568.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171014422995.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171014510930.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171014610530.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171014752119.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171014802792.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171014933620.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171016114306.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171016157513.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171016269958.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171016284691.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171016354551.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171016415730.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171016430394.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171016573039.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171016574220.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171016670125.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171016708241.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171016806394.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171016821599.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171016835949.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171016839793.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171016857288.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171016864578.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171016880755.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171016943331.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171016955479.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/imag/20171016980897.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fidofi/constant/UserConstant.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fidofi/repository/LoginRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fidofi/repository/impl/LoginRepositoryImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fidofi/service/LoginService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fidofi/service/impl/LoginServiceImpl.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/constant/PageConstant.class" afterPath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/constant/PageConstant.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/controller/DetailServlet.class" afterPath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/controller/DetailServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/controller/LoginServlet.class" afterPath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/controller/LoginServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/controller/ProductServlet.class" afterPath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/controller/ProductServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/controller/SaveServlet.class" afterPath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/controller/SaveServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/controller/UpdateSubmitServlet.class" afterPath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/controller/UpdateSubmitServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/enums/CategoryEnum.class" afterPath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/enums/CategoryEnum.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/enums/ResultEnums.class" afterPath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/enums/ResultEnums.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/filter/LoginFilter.class" afterPath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/filter/LoginFilter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/model/Product.class" afterPath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/model/Product.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/model/User.class" afterPath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/model/User.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/repository/ProductRepository.class" afterPath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/repository/ProductRepository.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/repository/impl/ProductRepositoryImpl.class" afterPath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/repository/impl/ProductRepositoryImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/utils/DB/impl/BeanListHandler.class" afterPath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/utils/DB/impl/BeanListHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/service/ProductService.class" afterPath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/service/ProductService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/service/impl/ProductServiceImpl.class" afterPath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/service/impl/ProductServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/utils/CharsetChangeUtils.class" afterPath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/utils/CharsetChangeUtils.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/utils/DBUtils.class" afterPath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/utils/DBUtils.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/utils/ProductVOUtils.class" afterPath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/utils/ProductVOUtils.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/vo/ProductVO.class" afterPath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/com/fidofi/vo/ProductVO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fidofi/constant/PageConstant.class" afterPath="$PROJECT_DIR$/target/classes/com/fidofi/constant/PageConstant.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fidofi/controller/DetailServlet.class" afterPath="$PROJECT_DIR$/target/classes/com/fidofi/controller/DetailServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fidofi/controller/LoginServlet.class" afterPath="$PROJECT_DIR$/target/classes/com/fidofi/controller/LoginServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fidofi/controller/ProductServlet.class" afterPath="$PROJECT_DIR$/target/classes/com/fidofi/controller/ProductServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fidofi/controller/SaveServlet.class" afterPath="$PROJECT_DIR$/target/classes/com/fidofi/controller/SaveServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fidofi/controller/UpdateSubmitServlet.class" afterPath="$PROJECT_DIR$/target/classes/com/fidofi/controller/UpdateSubmitServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fidofi/enums/CategoryEnum.class" afterPath="$PROJECT_DIR$/target/classes/com/fidofi/enums/CategoryEnum.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fidofi/enums/ResultEnums.class" afterPath="$PROJECT_DIR$/target/classes/com/fidofi/enums/ResultEnums.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fidofi/filter/LoginFilter.class" afterPath="$PROJECT_DIR$/target/classes/com/fidofi/filter/LoginFilter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fidofi/model/Product.class" afterPath="$PROJECT_DIR$/target/classes/com/fidofi/model/Product.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fidofi/model/User.class" afterPath="$PROJECT_DIR$/target/classes/com/fidofi/model/User.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fidofi/repository/ProductRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/fidofi/repository/ProductRepository.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fidofi/repository/impl/ProductRepositoryImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/fidofi/repository/impl/ProductRepositoryImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fidofi/utils/DB/impl/BeanListHandler.class" afterPath="$PROJECT_DIR$/target/classes/com/fidofi/utils/DB/impl/BeanListHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fidofi/service/ProductService.class" afterPath="$PROJECT_DIR$/target/classes/com/fidofi/service/ProductService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fidofi/service/impl/ProductServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/fidofi/service/impl/ProductServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fidofi/utils/CharsetChangeUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/fidofi/utils/CharsetChangeUtils.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fidofi/utils/DBUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/fidofi/utils/DBUtils.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fidofi/utils/ProductVOUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/fidofi/utils/ProductVOUtils.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fidofi/vo/ProductVO.class" afterPath="$PROJECT_DIR$/target/classes/com/fidofi/vo/ProductVO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/fidofi/repository/impl/ProductRepositoryImplTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/fidofi/repository/impl/ProductRepositoryImplTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fidofi/constant/PageConstant.java" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/constant/PageConstant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fidofi/controller/DetailServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/controller/DetailServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fidofi/controller/LoginServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/controller/LoginServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fidofi/controller/ProductServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/controller/ProductServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fidofi/controller/SaveServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/controller/SaveServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fidofi/controller/UpdateSubmitServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/controller/UpdateSubmitServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fidofi/filter/LoginFilter.java" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/filter/LoginFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fidofi/model/Page.java" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/model/Page.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fidofi/model/Product.java" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/model/Product.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fidofi/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/model/User.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fidofi/repository/ProductRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/repository/ProductRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fidofi/repository/impl/ProductRepositoryImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/repository/impl/ProductRepositoryImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fidofi/utils/DB/impl/BeanListHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/utils/DB/impl/BeanListHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fidofi/service/ProductService.java" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/service/ProductService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fidofi/service/impl/ProductServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/service/impl/ProductServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fidofi/utils/DBUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/utils/DBUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fidofi/utils/ProductVOUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/utils/ProductVOUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fidofi/vo/ProductVO.java" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/vo/ProductVO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/create.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/create.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/detail.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/detail.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/show.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/show.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/update.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/update.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/logback.xml" afterPath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/classes/logback.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/fidofi/repository/impl/ProductRepositoryImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/fidofi/repository/impl/ProductRepositoryImplTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/fidofi/service/impl/CategoryAndCountServiceImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/fidofi/service/impl/CategoryAndCountServiceImplTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/create.jsp" afterPath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/create.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/detail.jsp" afterPath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/detail.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/index.jsp" afterPath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/login.jsp" afterPath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/login.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/update.jsp" afterPath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/update.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/ProductSystem-1.0-SNAPSHOT/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/logback.xml" afterPath="$PROJECT_DIR$/target/classes/logback.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.log" afterPath="$PROJECT_DIR$/test.log" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/fidofi/repository/LoginRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/fidofi/repository/ManagerRepository.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -115,33 +222,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="show.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/show.jsp">
+      <file leaf-file-name="managerUser.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/managerUser.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="20" column="102" lean-forward="false" selection-start-line="20" selection-start-column="102" selection-end-line="20" selection-end-column="102" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShowChartServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/controller/ShowChartServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="24" column="81" lean-forward="false" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="81" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CategoryAndCountServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/service/impl/CategoryAndCountServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="32" column="56" lean-forward="false" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+            <state relative-caret-position="175">
+              <caret line="7" column="96" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="96" />
               <folding />
             </state>
           </provider>
@@ -152,10 +237,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
-        <option value="Interface" />
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -170,57 +256,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/controller/CreateServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/utils/PhotoNameUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/utils/DB/CharsetChangeUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/controller/UpdateServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/utils/CharsetChangeUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/controller/DeleteServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/constant/DBConstant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/service/ProductService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/model/Page.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/service/impl/ProductServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/fidofi/repository/impl/ProductRepositoryImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/constant/PageConstant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/controller/DetailServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/500.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/404.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/controller/LoginServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fidofi/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/repository/LoginRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/constant/UserConstant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/service/LoginService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/service/impl/LoginServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/filter/LoginFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/controller/OutServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/repository/impl/LoginRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/model/Page.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/constant/ResponseCode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/service/impl/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/constant/PageConstant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/UserLoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/front/user_car.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/dto/Card.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fidofi/utils/DBUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/controller/ProductServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/filter/BuyFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/front/user_card.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/controller/ManagerUserServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/controller/FreezeServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/managerUser.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/DoRegisterServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/UserRegisterServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/front/user_register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/UserOutServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/ForwardLoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/CleanCardServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/UserUpdateServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/repository/impl/UserRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/BuyServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/DoUpdateServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/fidofi/model/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/vo/ProductVO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/utils/ProductVOUtils.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/create.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/update.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/vo/ProductVO.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/detail.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/utils/ProductVOUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fidofi/controller/UpdateSubmitServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fidofi/controller/SaveServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/repository/impl/ProductRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/echarts.min.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/fidofi/repository/ProductRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/repository/CategoryRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/repository/impl/CategoryRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/model/CategoryAndCount.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/utils/DB/impl/BeanListHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/vo/CategoryAndCountVO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/service/CategoryAndCountService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/fidofi/service/impl/CategoryAndCountServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/controller/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/repository/impl/ProductRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/IndexServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/UserOrderServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/SelectByNameServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/vo/ResultVO.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/front/user_index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/front/user_login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/show.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/controller/ShowChartServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fidofi/service/impl/CategoryAndCountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/front/user_update.jsp" />
       </list>
     </option>
   </component>
@@ -249,6 +335,48 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ProductSystem" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ProductSystem" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ProductSystem" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -271,6 +399,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -345,6 +475,36 @@
               <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -386,14 +546,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="fidofi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -411,12 +573,15 @@
       <recent name="com.fidofi.service.impl" />
       <recent name="com.fidofi.repository.impl" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fidofi.model" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\ProductSystem\src\main\webapp\WEB-INF\front" />
       <recent name="F:\ProductSystem\src\main\webapp\js" />
       <recent name="F:\ProductSystem\src\main\webapp" />
       <recent name="F:\ProductSystem\src\main\resources\js" />
       <recent name="F:\ProductSystem\src\main\webapp\imag" />
-      <recent name="F:\ProductSystem\src\main\resources\imag" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -428,6 +593,84 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.productsystem">
+    <configuration default="false" name="ProductRepositoryImplTest.testIncrease" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.fidofi.repository.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ProductSystem" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.fidofi.repository.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.fidofi.repository.impl.ProductRepositoryImplTest" />
+      <option name="METHOD_NAME" value="testIncrease" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ProductRepositoryImplTest.testDecrease" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.fidofi.repository.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ProductSystem" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.fidofi.repository.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.fidofi.repository.impl.ProductRepositoryImplTest" />
+      <option name="METHOD_NAME" value="testDecrease" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ProductRepositoryImplTest.testReadOrderBy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.fidofi.repository.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ProductSystem" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.fidofi.repository.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.fidofi.repository.impl.ProductRepositoryImplTest" />
+      <option name="METHOD_NAME" value="testReadOrderBy" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="false" name="ProductRepositoryImplTest.readByProductName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -454,85 +697,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ProductRepositoryImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.fidofi.repository.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ProductSystem" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.fidofi.repository.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.fidofi.repository.impl.ProductRepositoryImplTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ProductRepositoryImplTest.read" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.fidofi.repository.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ProductSystem" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.fidofi.repository.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.fidofi.repository.impl.ProductRepositoryImplTest" />
-      <option name="METHOD_NAME" value="read" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ProductRepositoryImplTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.fidofi.repository.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ProductSystem" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.fidofi.repository.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.fidofi.repository.impl.ProductRepositoryImplTest" />
-      <option name="METHOD_NAME" value="create" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="CategoryAndCountServiceImplTest.getAllCategoryAndCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CategoryAndCountServiceImplTest.testReadOrderBy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.fidofi.service.impl.*" />
@@ -544,7 +709,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.fidofi.service.impl" />
       <option name="MAIN_CLASS_NAME" value="com.fidofi.service.impl.CategoryAndCountServiceImplTest" />
-      <option name="METHOD_NAME" value="getAllCategoryAndCount" />
+      <option name="METHOD_NAME" value="testReadOrderBy" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -885,6 +1050,28 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -1023,19 +1210,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.productsystem" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ProductRepositoryImplTest.readByProductName" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ProductRepositoryImplTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ProductRepositoryImplTest.read" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ProductRepositoryImplTest.create" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.CategoryAndCountServiceImplTest.getAllCategoryAndCount" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ProductRepositoryImplTest.testIncrease" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ProductRepositoryImplTest.testDecrease" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ProductRepositoryImplTest.testReadOrderBy" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ProductRepositoryImplTest.readByProductName" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.CategoryAndCountServiceImplTest.testReadOrderBy" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CategoryAndCountServiceImplTest.getAllCategoryAndCount" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ProductRepositoryImplTest.create" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ProductRepositoryImplTest.read" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ProductRepositoryImplTest.readByProductName" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ProductRepositoryImplTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CategoryAndCountServiceImplTest.testReadOrderBy" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ProductRepositoryImplTest.readByProductName" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ProductRepositoryImplTest.testReadOrderBy" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ProductRepositoryImplTest.testDecrease" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ProductRepositoryImplTest.testIncrease" />
       </list>
     </recent_temporary>
   </component>
@@ -1076,7 +1263,33 @@
       <workItem from="1507946087445" duration="19843000" />
       <workItem from="1508083489454" duration="739000" />
       <workItem from="1508150036931" duration="3601000" />
-      <workItem from="1508165865726" duration="1403000" />
+      <workItem from="1508165865726" duration="1822000" />
+      <workItem from="1508172406344" duration="259000" />
+      <workItem from="1508217434253" duration="9394000" />
+      <workItem from="1508301230290" duration="12493000" />
+      <workItem from="1508842835431" duration="777000" />
+      <workItem from="1508912804449" duration="3882000" />
+      <workItem from="1509171140310" duration="603000" />
+      <workItem from="1509968850984" duration="10176000" />
+      <workItem from="1510035615674" duration="4848000" />
+      <workItem from="1510055562253" duration="1839000" />
+      <workItem from="1510122885303" duration="3723000" />
+      <workItem from="1511453731588" duration="21000" />
+      <workItem from="1511489411395" duration="679000" />
+      <workItem from="1511849796001" duration="636000" />
+      <workItem from="1511850506844" duration="8108000" />
+      <workItem from="1511932512425" duration="595000" />
+      <workItem from="1511945204489" duration="10049000" />
+      <workItem from="1511959205192" duration="6604000" />
+      <workItem from="1511967739281" duration="588000" />
+      <workItem from="1512001392165" duration="4244000" />
+      <workItem from="1512009905764" duration="6411000" />
+      <workItem from="1512022722312" duration="12442000" />
+      <workItem from="1512043541874" duration="621000" />
+      <workItem from="1512052302216" duration="4577000" />
+      <workItem from="1512107068369" duration="9524000" />
+      <workItem from="1512287852322" duration="5079000" />
+      <workItem from="1512374418470" duration="822000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;完成基本分页操作&quot;">
       <created>1507388136687</created>
@@ -1089,39 +1302,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CategoryAndCountServiceImplTest_getAllCategoryAndCount - 2017.10.14 at 19h 32m 44s.xml">
-      <configuration name="CategoryAndCountServiceImplTest.getAllCategoryAndCount" configurationId="JUnit" />
+    <history-entry file="CategoryAndCountServiceImplTest_testReadOrderBy - 2017.11.07 at 00h 49m 42s.xml">
+      <configuration name="CategoryAndCountServiceImplTest.testReadOrderBy" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CategoryAndCountServiceImplTest_getAllCategoryAndCount - 2017.10.14 at 19h 33m 51s.xml">
-      <configuration name="CategoryAndCountServiceImplTest.getAllCategoryAndCount" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CategoryAndCountServiceImplTest_getAllCategoryAndCount - 2017.10.14 at 19h 36m 25s.xml">
-      <configuration name="CategoryAndCountServiceImplTest.getAllCategoryAndCount" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CategoryAndCountServiceImplTest_getAllCategoryAndCount - 2017.10.14 at 19h 38m 31s.xml">
-      <configuration name="CategoryAndCountServiceImplTest.getAllCategoryAndCount" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CategoryAndCountServiceImplTest_getAllCategoryAndCount - 2017.10.14 at 19h 42m 46s.xml">
-      <configuration name="CategoryAndCountServiceImplTest.getAllCategoryAndCount" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CategoryAndCountServiceImplTest_getAllCategoryAndCount - 2017.10.14 at 19h 44m 15s.xml">
-      <configuration name="CategoryAndCountServiceImplTest.getAllCategoryAndCount" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CategoryAndCountServiceImplTest_getAllCategoryAndCount - 2017.10.14 at 19h 45m 41s.xml">
-      <configuration name="CategoryAndCountServiceImplTest.getAllCategoryAndCount" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CategoryAndCountServiceImplTest_getAllCategoryAndCount - 2017.10.14 at 23h 14m 03s.xml">
-      <configuration name="CategoryAndCountServiceImplTest.getAllCategoryAndCount" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CategoryAndCountServiceImplTest_getAllCategoryAndCount - 2017.10.14 at 23h 17m 44s.xml">
-      <configuration name="CategoryAndCountServiceImplTest.getAllCategoryAndCount" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductRepositoryImplTest_readByProductName - 2017.10.07 at 21h 21m 57s.xml">
+    <history-entry file="ProductRepositoryImplTest_readByProductName - 2017.11.06 at 23h 32m 39s.xml">
       <configuration name="ProductRepositoryImplTest.readByProductName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductRepositoryImplTest_testDecrease - 2017.10.25 at 15h 02m 07s.xml">
+      <configuration name="ProductRepositoryImplTest.testDecrease" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductRepositoryImplTest_testIncrease - 2017.10.25 at 15h 01m 28s.xml">
+      <configuration name="ProductRepositoryImplTest.testIncrease" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductRepositoryImplTest_testReadOrderBy - 2017.11.06 at 23h 05m 36s.xml">
+      <configuration name="ProductRepositoryImplTest.testReadOrderBy" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductRepositoryImplTest_testReadOrderBy - 2017.11.06 at 23h 06m 11s.xml">
+      <configuration name="ProductRepositoryImplTest.testReadOrderBy" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductRepositoryImplTest_testReadOrderBy - 2017.11.06 at 23h 07m 01s.xml">
+      <configuration name="ProductRepositoryImplTest.testReadOrderBy" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductRepositoryImplTest_testReadOrderBy - 2017.11.06 at 23h 07m 58s.xml">
+      <configuration name="ProductRepositoryImplTest.testReadOrderBy" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductRepositoryImplTest_testReadOrderBy - 2017.11.06 at 23h 09m 00s.xml">
+      <configuration name="ProductRepositoryImplTest.testReadOrderBy" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductRepositoryImplTest_testReadOrderBy - 2017.11.06 at 23h 09m 23s.xml">
+      <configuration name="ProductRepositoryImplTest.testReadOrderBy" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214308000" />
+    <option name="totallyTimeSpent" value="333721000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1131,7 +1344,7 @@
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53001714" sideWeight="0.50907713" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761577" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1146,10 +1359,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.4969743" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26586622" sideWeight="0.49092284" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26758146" sideWeight="0.49092284" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.4969743" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.41505793" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20347957" sideWeight="0.5849421" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2647504" sideWeight="0.35506004" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28625953" sideWeight="0.64493996" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1168,7 +1381,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53001714" sideWeight="0.50907713" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761577" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1186,10 +1399,10 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.4969743" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11320755" sideWeight="0.49092284" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2555746" sideWeight="0.49092284" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.4969743" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20347957" sideWeight="0.41505793" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20347957" sideWeight="0.5849421" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2908397" sideWeight="0.35506004" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28625953" sideWeight="0.64493996" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1207,7 +1420,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/fidofi/service/impl/CategoryAndCountServiceImplTest.java</url>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1216,355 +1436,360 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/js/bootstrap.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/js/bootstrap.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/bootstrap.js">
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.4/servlet-api-2.4.jar!/javax/servlet/http/HttpServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="188">
+          <caret line="62" column="10" lean-forward="false" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery.min.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/DoRegisterServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="25">
+          <caret line="26" column="56" lean-forward="false" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/bootstrapValidator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/bootstrapValidator.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/repository/LoginRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/service/LoginService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/service/impl/LoginServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/UserRegisterServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
-          <caret line="13" column="46" lean-forward="false" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/controller/CreateServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/constant/UserConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/filter/LoginFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-253">
-          <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <caret line="19" column="99" lean-forward="false" selection-start-line="19" selection-start-column="99" selection-end-line="19" selection-end-column="99" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/controller/OutServlet.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="18" column="89" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/ForwardLoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
-          <caret line="18" column="87" lean-forward="false" selection-start-line="18" selection-start-column="87" selection-end-line="18" selection-end-column="87" />
+          <caret line="18" column="98" lean-forward="false" selection-start-line="18" selection-start-column="98" selection-end-line="18" selection-end-column="98" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/enums/CategoryEnum.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/UserLoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="15" />
+        <state relative-caret-position="465">
+          <caret line="32" column="57" lean-forward="true" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/repository/impl/LoginRepositoryImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/CleanCardServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="417">
+          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/c3p0.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/UserUpdateServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="3" column="57" lean-forward="true" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
+        <state relative-caret-position="142">
+          <caret line="18" column="95" lean-forward="false" selection-start-line="18" selection-start-column="95" selection-end-line="18" selection-end-column="95" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/logback.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/UserOutServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="133">
+          <caret line="21" column="96" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="21" selection-end-column="96" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="63" column="36" lean-forward="true" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="125">
+          <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="17" column="67" lean-forward="false" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+        <state relative-caret-position="222">
+          <caret line="32" column="48" lean-forward="false" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="40" column="153" lean-forward="false" selection-start-line="40" selection-start-column="153" selection-end-line="40" selection-end-column="153" />
+        <state relative-caret-position="50">
+          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/controller/UpdateServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/BuyServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="63" />
+        <state relative-caret-position="1325">
+          <caret line="82" column="6" lean-forward="false" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/DoUpdateServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="65" column="30" lean-forward="false" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="208">
+          <caret line="48" column="50" lean-forward="false" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/service/impl/ProductServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/repository/impl/UserRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="41" column="37" lean-forward="false" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+        <state relative-caret-position="172">
+          <caret line="59" column="56" lean-forward="false" selection-start-line="59" selection-start-column="56" selection-end-line="59" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/update.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/controller/OrderServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="44" column="148" lean-forward="false" selection-start-line="44" selection-start-column="148" selection-end-line="44" selection-end-column="148" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/detail.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="31" column="87" lean-forward="false" selection-start-line="31" selection-start-column="87" selection-end-line="31" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/controller/UpdateSubmitServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="85" column="85" lean-forward="false" selection-start-line="85" selection-start-column="85" selection-end-line="85" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/vo/ProductVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1038">
-          <caret line="81" column="18" lean-forward="false" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/controller/ProductServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="26" column="121" lean-forward="false" selection-start-line="26" selection-start-column="121" selection-end-line="26" selection-end-column="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/controller/SaveServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="76" column="89" lean-forward="true" selection-start-line="76" selection-start-column="89" selection-end-line="76" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/create.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="84" column="77" lean-forward="false" selection-start-line="84" selection-start-column="77" selection-end-line="84" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/echarts.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="37" column="3160" lean-forward="false" selection-start-line="37" selection-start-column="3160" selection-end-line="817" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/repository/impl/ProductRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1175">
-          <caret line="30" column="136" lean-forward="false" selection-start-line="30" selection-start-column="136" selection-end-line="30" selection-end-column="136" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/repository/ProductRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/model/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/service/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/utils/ProductVOUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="788">
-          <caret line="49" column="57" lean-forward="false" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/model/CategoryAndCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="47" column="18" lean-forward="false" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/repository/CategoryRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/repository/impl/CategoryRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/utils/DBUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/utils/DB/impl/BeanListHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-246">
-          <caret line="36" column="56" lean-forward="false" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
+        <state relative-caret-position="295">
+          <caret line="44" column="87" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="44" selection-end-column="87" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/vo/CategoryAndCountVO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/service/CategoryAndCountService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/model/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="955">
+          <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/controller/ProductServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/vo/ProductVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="86" column="33" lean-forward="false" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/controller/CreateServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/utils/ProductVOUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="54" column="43" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/controller/UpdateSubmitServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="95" column="43" lean-forward="false" selection-start-line="95" selection-start-column="43" selection-end-line="95" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/controller/SaveServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="72" column="45" lean-forward="true" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/detail.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <caret line="47" column="81" lean-forward="false" selection-start-line="47" selection-start-column="81" selection-end-line="47" selection-end-column="81" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/fidofi/service/impl/CategoryAndCountServiceImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/service/ProductService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="26" selection-end-column="3" />
+        <state relative-caret-position="239">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log-2017-10-14.0.log">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/service/impl/ProductServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1163">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="500">
+          <caret line="101" column="5" lean-forward="true" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/controller/LoginServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/UserOrderServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="43" column="64" lean-forward="true" selection-start-line="38" selection-start-column="6" selection-end-line="43" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/IndexServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="39" column="40" lean-forward="false" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+          <caret line="51" column="64" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="51" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/controller/front/SelectByNameServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="40" column="15" lean-forward="false" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+        <state relative-caret-position="314">
+          <caret line="37" column="64" lean-forward="false" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/imag/20171009476645.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/imag/20171009236699.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/controller/DeleteServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-93">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/controller/UpdateServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/vo/ResultVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="56" column="11" lean-forward="false" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/create.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1194">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="56" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/show.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="102" lean-forward="false" selection-start-line="20" selection-start-column="102" selection-end-line="20" selection-end-column="102" />
+        <state relative-caret-position="381">
+          <caret line="27" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/controller/ShowChartServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/update.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="24" column="81" lean-forward="false" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="1850">
+          <caret line="74" column="37" lean-forward="true" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/service/impl/CategoryAndCountServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/front/user_card.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="32" column="56" lean-forward="false" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+        <state relative-caret-position="1350">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/front/user_login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="55" column="31" lean-forward="true" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/front/user_register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="51" column="7" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="51" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/repository/ProductRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="91" column="12" lean-forward="false" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/c3p0.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="75" column="1" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="75" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1450">
+          <caret line="98" column="24" lean-forward="true" selection-start-line="95" selection-start-column="11" selection-end-line="98" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fidofi/repository/impl/ProductRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="144" column="5" lean-forward="true" selection-start-line="123" selection-start-column="3" selection-end-line="144" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/front/user_update.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="58" column="23" lean-forward="true" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/front/user_index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/managerUser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="96" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="96" />
           <folding />
         </state>
       </provider>

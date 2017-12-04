@@ -67,5 +67,30 @@ public interface ProductRepository {
     public void decreaseStock(String productBarCode);
 
 
+    /**
+     * 根据传来的价格排序规则和类别排序显示的商品
+     * @param role
+     * @param categoryCode
+     * @return
+     */
+    public List<Product> readOrderBy(Integer role,Integer categoryCode,Float start,Float end);
 
+    /**
+     * 根据传过来的数量增加对应的库存
+     * @param productBarCode
+     * @param count
+     */
+    public void increaseByCount(String productBarCode,Integer count);
+
+    /**
+     * 得到新品
+     * @return
+     */
+    public List<Product> getNew();
+
+    /**
+     * 得到特价品
+     * @return
+     */
+    public List<Product> getDiscount();
 }

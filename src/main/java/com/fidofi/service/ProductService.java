@@ -33,4 +33,16 @@ public interface ProductService {
     List<ProductVO> selectAll(Page page);
 
     Integer count();
+
+    void increase(String productBarCode);
+
+    void decrease(String productBarCode);
+
+    List<ProductVO> readOrderBy(Integer role, String categoryName, Float start, Float end);
+
+    void increaseByCount(String productBarCode, Integer count);
+
+    List<ProductVO> getNew();
+
+    List<ProductVO> getDiscount();
 }

@@ -21,15 +21,15 @@ import java.util.List;
  * 商品的dao操作
  */
 public class ProductRepositoryImpl implements ProductRepository {
-    private static final String field = "productId,productName,productDescription,productPrice,productPhoto,productBarCode,categoryCode,originStock,productStock";
+    private static final String field = "productId,productName,productDescription,productPrice,productPhoto,productBarCode,categoryCode,originStock,productStock,discount,isNew";
 
     public void create(Product product) {
-        String sql = "insert into product(" + field + ")" + "values(?,?,?,?,?,?,?,?,?)";
+        String sql = "insert into product(" + field + ")" + "values(?,?,?,?,?,?,?,?,?,?,?)";
         String productId = KeyUtils.getKey();
         String productBarCode = BarCodeUtils.getBarCode(productId, product.getCategoryCode());
         Object[] args = {productId, product.getProductName(), product.getProductDescription(), product.getProductPrice()
-                , product.getProductPhoto(), productBarCode, product.getCategoryCode(),product.getOriginStock(),product.getOriginStock()
-        };
+                , product.getProductPhoto(), productBarCode, product.getCategoryCode(), product.getOriginStock(), product.getOriginStock()
+                , product.getDiscount(), product.getNew()};
         DBUtils.update(sql, args);
 
     }
@@ -41,10 +41,11 @@ public class ProductRepositoryImpl implements ProductRepository {
     }
 
     public void update(Product product) {
+
         String sql = "update product set productName=? ,productDescription=?,productPrice=?," +
-                "productPhoto=?,categoryCode=?,productStock=?,originStock=? where productBarCode=?";
+                "productPhoto=?,categoryCode=?,productStock=?,originStock=?,discount=?,isNew=? where productBarCode=?";
         Object[] args = {product.getProductName(), product.getProductDescription(),
-                product.getProductPrice(), product.getProductPhoto(), product.getCategoryCode(),product.getProductStock(), product.getOriginStock(),product.getProductBarCode()
+                product.getProductPrice(), product.getProductPhoto(), product.getCategoryCode(), product.getProductStock(), product.getOriginStock(), product.getDiscount(), product.getNew(),product.getProductBarCode()
         };
         DBUtils.update(sql, args);
     }
@@ -59,7 +60,7 @@ public class ProductRepositoryImpl implements ProductRepository {
      */
     public Product read(String productBarCode, String productName) {
         String sql = "select " + field + " from product where productBarCode=? and productName= ?";
-        Object[] args = {productBarCode, productName};
+        Object[] args = {productBarCode, "%" + productName + "%"};
         return (Product) DBUtils.select(new BeanHandler(Product.class), sql, args);
     }
 
@@ -71,9 +72,9 @@ public class ProductRepositoryImpl implements ProductRepository {
      * @return
      */
     public List<Product> readByProductName(String productName, Page page) {
-        String sql = "select " + field + " from product where productName= ? limit ?,?";
+        String sql = "select " + field + " from product where productName like ? limit ?,?";
         Integer startIndex = ((page.getIndex() - 1) * PageConstant.size);
-        Object[] args = {productName, startIndex, PageConstant.size};
+        Object[] args = {"%" + productName + "%", startIndex, PageConstant.size};
         return (List<Product>) DBUtils.select(new BeanListHandler(Product.class), sql, args);
     }
 
@@ -130,8 +131,8 @@ public class ProductRepositoryImpl implements ProductRepository {
             conn = DBUtils.getConnection();
             ps = conn.prepareStatement(sql);
             rs = ps.executeQuery();
-            while(rs.next()){
-                count=rs.getInt(1);
+            while (rs.next()) {
+                count = rs.getInt(1);
             }
             return count;
         } catch (SQLException e) {
@@ -145,18 +146,76 @@ public class ProductRepositoryImpl implements ProductRepository {
 
     /**
      * 增加库存
+     *
      * @param productBarCode
      */
-    public void increaseStock(String productBarCode) {
-
-
+    public synchronized void increaseStock(String productBarCode) {
+        Product product = this.readByCategoryCode(productBarCode);
+        Integer productStock = product.getProductStock();
+        product.setProductStock(productStock + 1);
+        this.update(product);
     }
 
     /**
      * 减少库存
+     *
      * @param productBarCode
      */
-    public void decreaseStock(String productBarCode) {
+    public synchronized void decreaseStock(String productBarCode) {
+        Product product = this.readByCategoryCode(productBarCode);
+        Integer productStock = product.getProductStock();
+        product.setProductStock(productStock - 1);
+        this.update(product);
+    }
 
+    /**
+     * 根据类别和价格排序
+     *
+     * @param role
+     * @param categoryCode
+     * @return
+     */
+    public List<Product> readOrderBy(Integer role, Integer categoryCode, Float start, Float end) {
+        String sql = null;
+        //默认是升序
+        String orderRole = "ASC";
+        //降序
+        if (role == 1) {
+            orderRole = "DESC";
+        }
+        //升序
+        if (role == 2) {
+            orderRole = "ASC";
+        }
+        if (start == null || end == null) {
+            sql = "SELECT " + field + " FROM product WHERE categoryCode=? ORDER BY productPrice " + orderRole;
+            Object[] args = {categoryCode};
+            return (List<Product>) DBUtils.select(new BeanListHandler(Product.class), sql, args);
+        } else {
+            sql = "SELECT " + field + " FROM product WHERE categoryCode=? and productPrice between ? and ? ORDER BY productPrice " + orderRole;
+            Object[] args = {categoryCode, start, end};
+            return (List<Product>) DBUtils.select(new BeanListHandler(Product.class), sql, args);
+        }
+    }
+
+    public void increaseByCount(String productBarCode, Integer count) {
+        String sql = "update product set productStock=productStock+? where productBarCode=?";
+        Object[] args = {count, productBarCode};
+        DBUtils.update(sql, args);
+
+    }
+
+    public List<Product> getNew() {
+        String sql = "select " + field + " from product where isNew=true";
+        Object[] args={};
+        List<Product> productList=(List<Product>)DBUtils.select(new BeanListHandler(Product.class),sql,args);
+        return productList;
+    }
+
+    public List<Product> getDiscount() {
+        String sql = "select " + field + " from product where discount=true";
+        Object[] args={};
+        List<Product> productList=(List<Product>)DBUtils.select(new BeanListHandler(Product.class),sql,args);
+        return productList;
     }
 }

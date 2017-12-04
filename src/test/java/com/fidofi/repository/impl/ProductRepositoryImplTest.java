@@ -18,7 +18,7 @@ import static org.junit.Assert.*;
 public class ProductRepositoryImplTest {
   private ProductRepository productRepository=new ProductRepositoryImpl();
 
-  @Test
+  //@Test
     public void create() throws Exception {
        Product product=new Product();
        product.setCategoryCode(3);
@@ -56,11 +56,11 @@ public class ProductRepositoryImplTest {
     }
 
 
-  //  @Test
+    //@Test
     public void readByProductName() throws Exception {
         Page page=new Page();
         page.setIndex(1);
-        List<Product> productList= productRepository.readByProductName("大西瓜",page);
+        List<Product> productList= productRepository.readByProductName("测",page);
         System.out.println(productList.size());
         for(Product product:productList){
             System.out.println(product.toString());
@@ -85,4 +85,21 @@ public class ProductRepositoryImplTest {
         System.out.println(productRepository.count());
     }
 
+    //@Test
+    public void testIncrease(){
+        productRepository.increaseStock("1632505150753");
+    }
+
+    //@Test
+    public void testDecrease(){
+      productRepository.decreaseStock("1632505150753");
+    }
+
+//  //  @Test
+//    public void testReadOrderBy(){
+//        List<Product> productList= productRepository.readOrderBy(1,2);
+//        for(Product product:productList){
+//            System.out.println(product.toString());
+//        }
+//    }
  }

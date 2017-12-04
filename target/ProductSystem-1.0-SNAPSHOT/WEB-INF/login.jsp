@@ -12,24 +12,26 @@
     <div class="row clearfix">
         <div class="col-md-12 column">
             <h3 class="text-center">
-                商品后台管理系统登录界面
+                天天淘后台管理系统登录界面
             </h3>
             <%
                 String userName=null;
                 String userPassword=null;
                Cookie[] cookies=request.getCookies();
-               for(int i=0;i<cookies.length;i++){
-                   if(cookies[i].getName().equals("name")){
-                       userName=cookies[i].getValue();
-                   }
-                   if(cookies[i].getName().equals("password")){
-                       userPassword=cookies[i].getValue();
-                   }
-               }
+                 if(cookies!=null){
+                     for(int i=0;i<cookies.length;i++){
+                         if(cookies[i].getName().equals("name")){
+                             userName=cookies[i].getValue();
+                         }
+                         if(cookies[i].getName().equals("password")){
+                             userPassword=cookies[i].getValue();
+                         }
+                     }
+                 }
 
             %>
 
-         <div style="width: 250px;margin: auto">
+         <div style="width: 250px;margin: 100px auto">
              <form class="form-horizontal" role="form" action="/login" method="post" style="text-align: center;margin: 0 auto">
                  <div class="form-group">
                      <div class="col-sm-10">

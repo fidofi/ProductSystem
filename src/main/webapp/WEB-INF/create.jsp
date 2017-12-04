@@ -14,7 +14,7 @@
    <script>
         <!--数据验证-->
         $(function () {
-            $("#createProduct").bootstrapValidator({
+            $('form').bootstrapValidator({
                 message:'This value is not valid',
 //            定义未通过验证的状态图标
                 feedbackIcons: {/*输入框不同状态，显示图片的样式*/
@@ -51,7 +51,7 @@
                             notEmpty: {message: '商品描述不能为空'},
                         }
                     },
-                }
+                },
             });
         });
     </script>
@@ -69,10 +69,10 @@
 <div class="container">
     <div class="row clearfix">
         <div class="col-md-12 column">
-            <form role="form" action="/product/save" method="post"  enctype="multipart/form-data" id="createProduct">
+            <form role="form" action="/product/save" method="post"  enctype="multipart/form-data" id="createProduct" style="margin-left: 300px;margin-top: 100px;">
                 <div class="form-group">
                     <label >商品名称：</label><input type="text"  class="form-control" name="productName" style="width:160px;display: inline-block"/>
-                    <label >商品单价：</label><input type="text" class="form-control" name="productPrice" style="width:80px;display: inline-block"/>
+                    <label >商品单价：</label><input type="text" class="form-control" name="productPrice" style="width:100px;display: inline-block"/>
                 </div>
                 <div class="from-group">
                     <label>商品类别：</label>
@@ -89,12 +89,17 @@
                     <textarea class="form-control" rows="3" style="width: 300px;margin: 0 auto;display: inline-block" name="productDescription"></textarea>
                 </div>
                 <div class="form-group">
+                    <label>促销选择：</label>
+                    <input type="checkbox" name="discount" value="true">特价商品
+                    <input type="checkbox" name="isNew" value="true">新品
+                </div>
+                <div class="form-group">
                     <label>上传图片：</label><input type="file" name="productPhoto" style="display: inline-block">
                     <p class="help-block">
                         请选择.jpg格式的图片
                     </p>
                 </div>
-                <button type="submit" class="btn btn-default" style="text-align: center">增加</button>
+                <button type="submit"  class="btn btn-default" style="text-align: center">增加</button>
             </form>
         </div>
     </div>

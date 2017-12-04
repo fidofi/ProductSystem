@@ -24,7 +24,7 @@ public class DetailServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-          request.setCharacterEncoding("UTF-8");
+       //   request.setCharacterEncoding("UTF-8");
           String productBarCode =request.getParameter("productBarCode");
           List<ProductVO> productVOList= productService.selectByProductBarCode(productBarCode);
           request.setAttribute("productVO",productVOList.get(0));

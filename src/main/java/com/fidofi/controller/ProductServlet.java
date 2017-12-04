@@ -4,6 +4,7 @@ import com.fidofi.constant.PageConstant;
 import com.fidofi.model.Page;
 import com.fidofi.service.ProductService;
 import com.fidofi.service.impl.ProductServiceImpl;
+import com.fidofi.utils.CategoryCodeUtils;
 import com.fidofi.vo.ProductVO;
 
 import javax.servlet.ServletException;
@@ -25,7 +26,7 @@ public class ProductServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.setCharacterEncoding("UTF-8");
+     //   request.setCharacterEncoding("UTF-8");
         //设置分页对象
         Page page = new Page();
         page.setIndex(1);
@@ -66,6 +67,7 @@ public class ProductServlet extends HttpServlet {
         page.setTotal(i > 0 ? (j + 1) : j);//处理总页数
         //将分页信息传过去
         request.setAttribute("page", page);
+        request.setAttribute("categoryName", CategoryCodeUtils.categoryName());
         request.getRequestDispatcher("/WEB-INF/index.jsp").forward(request, response);
     }
 }

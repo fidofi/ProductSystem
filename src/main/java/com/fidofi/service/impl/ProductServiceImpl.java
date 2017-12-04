@@ -37,7 +37,7 @@ public class ProductServiceImpl implements ProductService {
      * @return
      */
     public ProductVO update(ProductVO productVO) {
-        Product product=ProductVOUtils.getProduct(productVO);
+        Product product = ProductVOUtils.getProduct(productVO);
         product.setProductId(productRepository.readByCategoryCode(product.getProductBarCode()).getProductId());
         productRepository.update(product);
         return ProductVOUtils.getProductVO(product);
@@ -52,35 +52,60 @@ public class ProductServiceImpl implements ProductService {
     }
 
     public List<ProductVO> selectByProductBarCode(String productBarCode) {
-        List<Product> productList=null;
-        Product product=productRepository.readByCategoryCode(productBarCode);
-        if(product!=null) {
-            productList=new ArrayList<Product>();
+        List<Product> productList = null;
+        Product product = productRepository.readByCategoryCode(productBarCode);
+        if (product != null) {
+            productList = new ArrayList<Product>();
             productList.add(product);
         }
         return ProductVOUtils.getProductVOList(productList);
     }
 
-    public List<ProductVO> selectByProductName(String productName,Page page) {
-        return ProductVOUtils.getProductVOList(productRepository.readByProductName(productName,page));
+    public List<ProductVO> selectByProductName(String productName, Page page) {
+        return ProductVOUtils.getProductVOList(productRepository.readByProductName(productName, page));
     }
 
     public List<ProductVO> select(String productBarCode, String productName) {
-        List<Product> productList=null;
-        Product product=productRepository.read(productBarCode,productName);
-        if(product!=null) {
+        List<Product> productList = null;
+        Product product = productRepository.read(productBarCode, productName);
+        if (product != null) {
             productList = new ArrayList<Product>();
             productList.add(product);
         }
-            return ProductVOUtils.getProductVOList(productList);
+        return ProductVOUtils.getProductVOList(productList);
 
     }
 
-    public List<ProductVO> selectAll(Page page){
+    public List<ProductVO> selectAll(Page page) {
         return ProductVOUtils.getProductVOList(productRepository.readAll(page));
     }
 
     public Integer count() {
         return productRepository.count();
+    }
+
+    public void increase(String productBarCode) {
+        productRepository.increaseStock(productBarCode);
+    }
+
+    public void decrease(String productBarCode) {
+        productRepository.decreaseStock(productBarCode);
+    }
+
+    public List<ProductVO> readOrderBy(Integer role, String categoryName, Float start, Float end) {
+        Integer categoryCode = CategoryCodeUtils.getCode(categoryName);
+        return ProductVOUtils.getProductVOList(productRepository.readOrderBy(role, categoryCode, start, end));
+    }
+
+    public void increaseByCount(String productBarCode, Integer count) {
+        productRepository.increaseByCount(productBarCode, count);
+    }
+
+    public List<ProductVO> getNew() {
+        return ProductVOUtils.getProductVOList(productRepository.getNew());
+    }
+
+    public List<ProductVO> getDiscount() {
+        return ProductVOUtils.getProductVOList(productRepository.getDiscount());
     }
 }

@@ -1,8 +1,6 @@
 package com.fidofi.filter;
 
-import com.fidofi.model.User;
-import com.sun.deploy.net.HttpRequest;
-import com.sun.deploy.net.HttpResponse;
+import com.fidofi.model.Manager;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
@@ -23,8 +21,8 @@ public class LoginFilter implements Filter {
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
         HttpServletRequest request=(HttpServletRequest) servletRequest;
         HttpServletResponse response=(HttpServletResponse) servletResponse;
-        User user=(User)request.getSession().getAttribute("user");
-        if(user!=null){
+        Manager manager=(Manager) request.getSession().getAttribute("manager");
+        if(manager!=null){
             filterChain.doFilter(request,response);
         }
         else{
